@@ -3,7 +3,7 @@ import java.util.Scanner;
 class Calculator {
     public static void main(String[] args) {
        
-        Scanner scanner = new Scanner(System.in);
+      //  Scanner scanner = new Scanner(System.in);
 
 
         System.out.println("Simple Calculator with java");
@@ -15,7 +15,7 @@ class Calculator {
         n1 = 30;//scanner.nextDouble();
 
         System.out.print("Enter an operator for an operation ");
-        operator = scanner.next().charAt(0);
+        operator = '*';
 
         System.out.print("Enter the second number: ");
         n2 = 20;//scanner.nextDouble();
